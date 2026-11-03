@@ -1,0 +1,38 @@
+{
+  "pages": {
+    "en": {
+      "Alle Abstimmungen sind abgeschlossen.": "All polls are completed.",
+      "Alle haben geantwortet — als Nächstes: {0} versenden.": "Everyone has responded — next: send {0}.",
+      "Antworten fehlen": "Responses missing",
+      "Archiv": "Archive",
+      "Ausstehende Antworten": "Pending responses",
+      "Auswertung öffnen": "Open results",
+      "Bei {0} fehlen noch Antworten von {1}.": "{0} is still missing responses from {1}.",
+      "Bei {0} ist die Frist vorbei — Zeit, den Termin festzulegen.": "The deadline for {0} has passed — time to set the date.",
+      "Entwürfe": "Drafts",
+      "Festgelegt": "Scheduled",
+      "Frist abgelaufen": "Deadline passed",
+      "Frist in 48 Std.": "Deadline in 48 hrs",
+      "Frist {0} · {1} von {2} geantwortet": "Deadline {0} · {1} of {2} responded",
+      "Keine offenen Rückmeldungen.": "No open responses.",
+      "Lege deine erste Terminabstimmung an.": "Create your first scheduling poll.",
+      "Neue Abstimmung": "New poll",
+      "Neue Alternativen": "New alternatives",
+      "Noch keine Antworten": "No responses yet",
+      "Noch keine Terminabstimmung — lege Terminvorschläge an und lade Teilnehmer ein.": "No scheduling polls yet — create date proposals and invite participants.",
+      "Offen": "Open",
+      "Sobald Antworten eintreffen, erscheinen hier die besten Terminvorschläge.": "Once responses come in, the best date proposals will appear here.",
+      "Termin festlegen": "Set date",
+      "Terminvorschläge nach Eignung": "Date proposals by suitability",
+      "Versenden": "Send",
+      "Zuletzt festgelegt: {0}.": "Last scheduled: {0}.",
+      "{0} Ja · {1} Wenn nötig · {2} Nein": "{0} Yes · {1} If needed · {2} No",
+      "{0} ausstehend": "{0} pending",
+      "{0} wartet als Entwurf auf den Versand.": "{0} is waiting to be sent as a draft.",
+      "{0} · {1} Teilnehmer": "{0} · {1} participants",
+      "{0}: Die Antwortfrist ist abgelaufen — {1} von {2} haben geantwortet.": "{0}: The response deadline has passed — {1} of {2} have responded.",
+      "{0}: Die Antwortfristen sind abgelaufen — jetzt Termine festlegen.": "{0}: The response deadlines have passed — set dates now."
+    }
+  },
+  "v": 1
+}

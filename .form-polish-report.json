@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Terminabstimmungen": {
+      "placeholders_set": 16,
+      "defaults_keys": [
+        "standarddauer_minuten",
+        "antwortfrist",
+        "status",
+        "zeitzone"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da es keine Datumspaare mit Dauerfeld und keine Preise über applookup gibt."
+    },
+    "Terminvorschläge": {
+      "placeholders_set": 11,
+      "defaults_keys": [
+        "start",
+        "anzahl_ja",
+        "anzahl_wenn_noetig",
+        "anzahl_nein",
+        "anzahl_ohne_antwort",
+        "anzahl_pflicht_ja"
+      ],
+      "computed_keys": [
+        "_termin_dauer_stunden"
+      ],
+      "reason": "Start und Ende bilden ein Datumspaar, daher eine Dauer in Stunden als virtueller Wert; die Zähler sind Eingaben ohne Rechenkette."
+    },
+    "Teilnehmer": {
+      "placeholders_set": 12,
+      "defaults_keys": [
+        "einladungsstatus"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formel, da die Teilnehmerdaten keine numerische Berechnung oder Datumspaare enthalten."
+    },
+    "Rückmeldungen": {
+      "placeholders_set": 6,
+      "defaults_keys": [
+        "antwortzeitpunkt",
+        "letzte_aenderung"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da die Rückmeldung nur Auswahlen und Zeitpunkte enthält und keine numerische Berechnung sinnvoll ist."
+    },
+    "Alternative Terminvorschläge": {
+      "placeholders_set": 5,
+      "defaults_keys": [
+        "start",
+        "status"
+      ],
+      "computed_keys": [
+        "_terminvorschlag_dauer_stunden"
+      ],
+      "reason": "Start und Ende bilden ein Datumspaar, daher eine Dauer in Stunden als virtuelles Feld; es gibt kein echtes Dauerfeld und keinen Preis."
+    }
+  }
+}
